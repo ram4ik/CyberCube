@@ -27,6 +27,7 @@ struct ContentView: View {
                     .font(.headline)
                     .foregroundColor(.white)
                     .padding(.horizontal)
+                    .multilineTextAlignment(.center)
                 Spacer()
                 Spacer()
             }.padding(.vertical)
