@@ -11,7 +11,9 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         ZStack {
+            
             LinearGradient(gradient: Gradient(colors: [Color.green, Color.blue]), startPoint: .bottomLeading, endPoint: .topTrailing)
+            
             VStack {
                 Logo()
                     .offset(y: -100)
